@@ -1,0 +1,178 @@
+<style type="text/css">BODY {
+    BACKGROUND: #3333bb;
+    BACKGROUND-COLOR: #3333bb;
+    COLOR: #ffffff;
+}
+
+H1 {
+    FONT-STYLE: italic;
+    TEXT-ALIGN: center;
+}
+
+H2 {
+    FONT-STYLE: italic;
+    TEXT-ALIGN: center
+}
+
+A2 {
+    COLOR: #bbffbb;
+    TEXT-DECORATION: underline
+}
+
+A:hover {
+    COLOR: #ddffdd;
+    BACKGROUND: #6666dd;
+}
+
+A:link {
+    COLOR: #bbbbff;
+}
+
+A:visited {
+    COLOR: #ffbbbb;
+}
+
+.ballstyle img{ 
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 100px;
+}
+
+.tracestyle,
+.ballstyle,
+.balltext,
+.menustyleborder {
+    POSITION: absolute;
+    LEFT: 0;
+    TOP: 0;
+    VISIBILITY: hidden;
+}
+
+.tracestyle {
+    WIDTH: 10;
+    HEIGHT: 10;
+}
+
+.ballstyle {
+    WIDTH: 100;
+    HEIGHT: 100;
+}
+
+.ballstyle a {
+    BACKGROUND-COLOR: transparent;
+}
+
+.ballstyle a:hover {
+    BACKGROUND-COLOR: transparent;
+}
+
+.balltext {
+    WIDTH: 100;
+    HEIGHT: 40;
+    COLOR: #ffffff;
+    BACKGROUND: #3333bb;
+    TEXT-ALIGN: center;
+}
+
+.menustyleborder {
+    BORDER: #448844;
+    BORDER-RIGHT: #448844 2px solid;
+    BORDER-TOP: #ffffff 2px solid;
+    BACKGROUND: #88ff88;
+    BORDER-LEFT: #ccffcc 2px solid;
+    BORDER-BOTTOM: #448844 2px solid
+}
+
+.menustyle,
+.menustyleborder {
+    FONT-SIZE: 16px;
+    BACKGROUND: #88ff88;
+    COLOR: #6666bb
+}
+
+.menustyle A,
+.menustyleborder A {
+    COLOR: #000066;
+    TEXT-DECORATION: none;
+}
+
+.menustyle A:link,
+.menustyleborder A:link {
+    COLOR: #000066;
+    TEXT-DECORATION: none;
+}
+
+.menustyle A:visited,
+.menustyleborder A:visited {
+    COLOR: #990066;
+    TEXT-DECORATION: none;
+}
+
+.menustyle A:hover,
+.menustyleborder A:hover {
+    BACKGROUND: #448844;
+    COLOR: #ffffff;
+    TEXT-DECORATION: none;
+}
+
+.menustyle A:active,
+.menustyle A:active {
+    COLOR: #000066;
+    TEXT-DECORATION: none;
+}
+
+.menustyle HR {
+    COLOR: #bbddee;
+    text-size: 3px
+}
+
+.menustyle .menutitle {
+    ALIGN: center;
+    FONT-STYLE: italic;
+    FONT-SIZE: larger;
+    FONT-WEIGHT: bold;
+    COLOR: #222266;
+
+}
+
+#settingmenubutton {
+    BACKGROUND: #3333cc;
+    COLOR: #aaaaaa;
+    FONT-STYLE: italic;
+    TEXT-DECORATION: none
+}
+
+#settingmenubutton A {
+    BACKGROUND: #3333cc;
+    COLOR: #aaaaaa;
+    FONT-STYLE: italic;
+    TEXT-DECORATION: none;
+}
+
+#settingmenubutton A:link {}
+
+#settingmenubutton A:visited {}
+
+#settingmenubutton A:hover {
+    BACKGROUND: #bbbbff;
+    COLOR: #000066
+}
+
+#settingmenubutton A:active {}
+
+.smartlink {
+    COLOR: #ffffff;
+}
+
+.smartlink A {
+    TEXT-DECORATION: none;
+    COLOR: #ffffff;
+}
+
+.smartlink A:hover {
+    TEXT-DECORATION: underline;
+}
+
+</style>

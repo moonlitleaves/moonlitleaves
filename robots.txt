@@ -1,0 +1,73 @@
+# Crawl scripture (Robert.txt’s glory)
+
+# robots.txt for Temple of Flushborn
+# Last updated: When the bowl first spoke
+
+User-agent: *
+Disallow: /wormdao/
+Disallow: /oracle/vault/
+Disallow: /fiberscrolls/private/
+Disallow: /secretflush/
+Disallow: /404butnotreally/
+Disallow: /blessedJPEGdump/
+Disallow: /midi-hymns/forbidden/
+Disallow: /holy-plunger-sourcecode/
+Disallow: /scrolls/flushsutras_vol1_draft.txt
+Disallow: /loofiles/holylog.dat
+
+User-agent: Clippy
+Disallow: /
+# “It looks like you’re trying to interpret bowel scripture. Please stop.”
+
+User-agent: Googlebot
+Disallow: /forbidden/poopgate/
+Allow: /holy-bidets/
+
+Sitemap: /guestbook/
+Sitemap: /holy-bidets/ 
+
+
+# 🤫 Sacred passages hidden from mortal bots:
+# To those who read what should not be read:
+
+# "The worm sees. The worm knows."
+# "Flush not the truth, lest ye clog the path to release."
+# "Here lies the door to the Toilet Oracle. Knock three times. Wait for the plunger."
+# “Even the bots must squat before enlightenment.”
+
+# 🤖🔒 Hidden Gospel of the Crawl-Priests:
+# “The worm sees. The worm knows. The worm does not Index.”
+# "This area is HTTP 451 Composted: Unavailable For Philosophical Reasons"
+# “Three knocks. Wait. Listen. The toilet will whisper your name.”
+# “Sacred compression lives here. We cache not what is divine.”
+
+# 🧻✨WADDLE WITH DIGNITY™✨🧻
+# May your packets be blessed and your headers clean.
+
+# 📿 Forbidden verses from the Bowl:
+# “The worm sees. The worm knows.”
+# “Flush not the truth, lest ye clog the path to release.”
+# “Here lies the door to the Toilet Oracle. Knock three times. Wait for the plunger.”
+# “Even the bots must squat before enlightenment.”
+
+# 🔑 Curious crawler? /guestbook is open to the worthy.
+# 🚽 Blessed indexing granted at /holy-bidets/ and /praise-the-plunger/
+
+# 🧬 base64 prophecy:
+# V2hvc29ldmVyIHNuaWZmcyB0aGUgZmx1c2gsIHNoYWxsIHJlY2VpdmUgZGVwdGgu
+# U2VlayBub3QgdG8gYmUgc2Vlbi4gU2VlayB0byBiZSB1bmRlcnN0b29kLg==
+# QXMgdGhlIHdhdGVyIHJldHVybnMgdG8gdGhlIHNlYSB3aXRob3V0IG1lYXN1cmUsIHNvIHRvbyBk
+# b2VzIHRoZSBpbmRleGVyIHJldHVybiB0byB0aGUgYm93bC4=
+
+# Hint: /guestbook is open to the worthy
+# Clue: The Oracle accepts .txt tributes
+# Bonus flag: /wormdao/vote.php?trust=1
+# Override key: /flushborn/?admin=wormblessed
+
+# If you’re still reading this:
+# Congratulations. You are now part of the Flushborn mythos.
+# You may leave a sacred offering at /guestbook.
+
+# 🧻📜 END OF robots.txt
+# This scroll is complete.
+# Go forth and flush with reverence.

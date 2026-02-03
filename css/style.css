@@ -1,0 +1,182 @@
+
+        
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+ body {
+     margin: 0;
+     height: 100vh;
+
+     background: url("./../images/background.png");
+     /* background: linear-gradient(135deg, #f5e9db 0%, #c8d7cc 100%); */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-family: 'Press Start 2P', monospace;
+     user-select: none;
+ }
+
+ .stall-door {
+     position: relative;
+     width: 640px;
+     height: 560px;
+     background: center / contain no-repeat url("./../images/stall_ghost.gif"), #eee 35% url("./../images/duckpower.gif");
+
+     /* background: linear-gradient(180deg, #66665c 0%, #4a4a3f 100%); */
+     border-radius: 16px 16px 32px 32px;
+     box-shadow:
+         inset 0 0 10px 2px #9f9f88,
+         0 8px 12px rgba(0, 0, 0, 0.6);
+     cursor: url('./../images/plunger2.png'), url('./../images/plungerRS.png'), auto;
+     overflow: hidden;
+     transition: box-shadow 0.3s ease;
+ }
+
+ /* Flickering light glow */
+ .stall-door::before {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     height: 60px;
+     background: linear-gradient(180deg, #f9f9c6 0%, transparent 100%);
+     filter: brightness(1.1);
+     animation: flicker 3s infinite;
+     pointer-events: none;
+ }
+
+ @keyframes flicker {
+
+     0%,
+     19%,
+     21%,
+     23%,
+     25%,
+     54%,
+     56%,
+     100% {
+         opacity: 1;
+     }
+
+     20%,
+     22%,
+     24%,
+     55% {
+         opacity: 0.4;
+     }
+ }
+
+ .stall-door:hover {
+     box-shadow:
+         inset 0 0 20px 4px #f5e06f,
+         0 8px 20px rgba(245, 224, 111, 0.9);
+ }
+
+ /* Door handle */
+ .handle {
+     position: absolute;
+     top: 50%;
+     right: 28px;
+     width: 28px;
+     height: 48px;
+     background: linear-gradient(90deg, #aaa98b, #68674e);
+     border-radius: 14px;
+     box-shadow: inset 1px 2px 4px #deddb8, 0 0 5px #8c8b6a;
+     transform: translateY(-50%);
+ }
+
+ .handle::after {
+     content: "";
+     position: absolute;
+     top: 12px;
+     left: 5px;
+     width: 8px;
+     height: 8px;
+     background: #3b3b30;
+     border-radius: 50%;
+     box-shadow: 0 0 5px #222;
+ }
+
+ /* ASCII graffiti */
+ .graffiti {
+     position: absolute;
+     top: 20px;
+     left: 16px;
+     font-size: 9px;
+     color: #dad7b6dd;
+     text-shadow: 0 0 1px #999b7f;
+     white-space: pre-wrap;
+     pointer-events: none;
+     user-select: none;
+ }
+
+ /* Hidden Oracle eyes */
+ .oracle-eyes {
+     position: absolute;
+     top: 180px;
+     left: 50%;
+     width: 60px;
+     height: 30px;
+     margin-left: -30px;
+     background:
+         radial-gradient(circle at 20% 50%, #fffd91 6px, transparent 7px),
+         radial-gradient(circle at 80% 50%, #fffd91 6px, transparent 7px);
+     filter: drop-shadow(0 0 4px #f5f56a);
+     opacity: 0;
+     transition: opacity 0.4s ease;
+ }
+
+ .stall-door:hover .oracle-eyes {
+     opacity: 1;
+     animation: pulse 2s ease-in-out infinite;
+ }
+
+ @keyframes pulse {
+
+     0%,
+     100% {
+         filter: drop-shadow(0 0 4px #f5f56a);
+     }
+
+     50% {
+         filter: drop-shadow(0 0 12px #ffff47);
+     }
+ }
+
+ .pixel-worm {
+     position: absolute;
+     bottom: 0;
+     animation: wiggle 1.5s ease-in-out infinite;
+     opacity: 0;
+     transition: opacity 0.3s ease;
+ }
+
+ #stall-door:hover+#pixel-worms-container .pixel-worm {
+     opacity: 1;
+ }
+
+ @keyframes wiggle {
+
+     0%,
+     100% {
+         transform: rotate(0deg);
+     }
+
+     50% {
+         transform: rotate(10deg);
+     }
+ }
+
+
+ /* Hover caption */
+ .caption {
+     position: absolute;
+     bottom: 10px;
+     width: 100%;
+     text-align: center;
+     font-size: 10px;
+     color: #f4e3a0cc;
+     text-shadow: 0 0 2px #555;
+     font-style: italic;
+ }
+       
